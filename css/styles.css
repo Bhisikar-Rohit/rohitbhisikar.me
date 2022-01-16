@@ -203,6 +203,38 @@ video {
   background: rgba(0, 0, 0, 0.3);
 }
 
+/* About Page CSS */
+.about-page {
+  padding: 2rem 1rem 10rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+
+.about-text {
+  margin: 0 auto;
+}
+
+.about-text h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.about-image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-social {
+  display: flex;
+  justify-content: start;
+}
+
+.about-social a {
+  color: black;
+  padding: 1rem;
+}
+
 /* Footer Nav Extra Styles */
 
 .footer-logo {
@@ -253,6 +285,21 @@ video {
     line-height: 2rem;
   }
 
+  .about-page {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+  .about-text h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .about-text p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
   .footer-nav {
     padding-top: 2rem;
   }
@@ -286,6 +333,16 @@ video {
   }
   .hero-nav {
     width: 100%;
+  }
+
+  .about-text h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .about-text p {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .footer-nav {
